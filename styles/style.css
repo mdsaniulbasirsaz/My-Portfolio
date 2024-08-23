@@ -1,0 +1,33 @@
+  .sc-link .btn {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .sc-link .btn:hover {
+    background-color: #8b2b8b; 
+  }
+
+  /* Animation for the icons */
+  .sc-link .btn i {
+    transition: transform 0.3s ease;
+  }
+
+  /* Hover effect for the icons */
+  .sc-link .btn:hover i {
+    transform: rotate(20deg); 
+  }
+
+  
+.resume .btn {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.resume .btn:hover {
+    transform: scale(1.1); 
+    background-color: #8b2b8b; 
+}
+
+
+.resume-btn:hover::before {
+    transform: rotate(20deg);
+}
